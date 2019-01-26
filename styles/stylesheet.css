@@ -1,0 +1,52 @@
+h1   {
+  color: green;
+  font-family:monospace;
+}
+h2 {
+  color: rgb(153, 0, 0);
+  font-family: cursive;
+}
+h3 {
+  color: brown;
+  font-size: 80%;
+}
+h4 {
+  color: Tomato;
+  font-family: inherit;
+}
+p {
+color: blue;
+}
+p {
+  border: 1px solid rgb(250, 100, 100);
+}
+ul {
+  list-style-type: square;
+}
+body {
+background-color: rgb(255, 255, 204);
+}
+
+.interesting-text {
+  color: hsla(283, 100%, 50%, .5);
+}
+.important {
+  font-weight: bold;
+}
+.important:hover {
+  background-color: MidnightBlue;
+}
+#lead-paragraph {
+  color:darksalmon;
+  font-weight: bold;
+}
+#surprising-material {
+  color: rgb(51, 255, 153);
+  font-style: italic;
+}
+img {
+border-style: ridge;
+border-color: orange;
+border-width: 3px;
+width: 20%
+}

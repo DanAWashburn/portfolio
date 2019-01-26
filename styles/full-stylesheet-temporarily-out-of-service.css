@@ -1,0 +1,49 @@
+<style>
+
+h1 {
+ color: blue;
+}
+
+p {
+  color: red;
+}
+
+body {
+  background-color: rgb(255, 255, 204);
+}
+.purple-text {
+  color: hsla(283, 100%, 50%, .5);
+}
+.important {
+  font-weight: bold;
+}
+.important:hover {
+  background-color: pink;
+}
+#lead-paragraph {
+  color:darksalmon;
+  font-weight: bold;
+}
+a[href="https://en.wikipedia.org/wiki/Continent"] {
+  padding: 1rem;
+  background-color: orange;
+}
+a[href="https://electoral-vote.com/"] {
+  background-color: #999900;
+}
+h1 {
+  color:red;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+}
+p.important {
+  width: 75%;
+}
+img {
+border-style: dashed;
+border-color: orange;
+border-width: 3px;
+width: 25%
+}
+</style>
