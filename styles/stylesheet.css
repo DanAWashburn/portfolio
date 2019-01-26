@@ -25,11 +25,10 @@ ul {
 }
 a.highlight:hover {
   color: #ff0000;
-} 
+}
 body {
 background-color: rgb(255, 255, 204);
 }
-
 .interesting-text {
   color: hsla(283, 100%, 50%, .5);
 }
