@@ -1,6 +1,7 @@
 h1   {
   color: green;
   font-family:monospace;
+  text-align: center;
 }
 h2 {
   color: rgb(153, 0, 0);
@@ -14,12 +15,29 @@ h4 {
   color: Tomato;
   font-family: inherit;
 }
+
 p {
 color: blue;
 }
-p {
-  border: 1px solid rgb(250, 100, 100);
+
+.row {
+  height: 250px;
+  width: 250px;
+  border: 25px solid rgb(102, 26, 0);
+  background: rgb(179, 230, 179);
+  text-align: center;
+  vertical-align: middle;
 }
+
+.container {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
 ul {
   list-style-type: square;
 }
