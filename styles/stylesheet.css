@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Lora');
+
 h1   {
-  color: green;
-  font-family:monospace;
+  color: #084C61;
+  font-family:"Libre Baskerville"; Times;
   text-align: center;
+  font-size: 300%;
 }
 h2 {
-  color: rgb(153, 0, 0);
-  font-family: cursive;
+  color: #084C61;
+  font-family: Lora; Times;
+  font-size: 175%;
 }
 h3 {
   color: brown;
@@ -20,13 +24,33 @@ p {
 color: blue;
 }
 
+a:link {
+ text-decoration: none;
+}
+
+a:visited {
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+.blue {
+  color: #4F6D7A;
+  font-weight: bold;
+
+}
+
+
+
 .row {
   height: 250px;
   width: 250px;
-  border: 25px solid rgb(102, 26, 0);
-  background: rgb(179, 230, 179);
+  padding: 25px;
+  border: 25px solid #56A3A6;
+  background: #E3B505;
   text-align: center;
-  vertical-align: middle;
 }
 
 .container {
@@ -36,6 +60,7 @@ color: blue;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin: 20px;
 }
 
 ul {
@@ -45,7 +70,7 @@ a.highlight:hover {
   color: #ff0000;
 }
 body {
-background-color: rgb(255, 255, 204);
+background-color: #ff773D;
 }
 .interesting-text {
   color: hsla(283, 100%, 50%, .5);
@@ -64,9 +89,16 @@ background-color: rgb(255, 255, 204);
   color: rgb(51, 255, 153);
   font-style: italic;
 }
+#centered {
+  text-align: center;
+}
+
+#larger {
+  font-size: 150%
+}
 img {
 border-style: ridge;
-border-color: orange;
+border-color: #084C61;
 border-width: 3px;
-width: 20%
+height: 40%;
 }
