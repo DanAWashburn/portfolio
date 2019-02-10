@@ -5,11 +5,13 @@ h1   {
   font-family:"Libre Baskerville"; Times;
   text-align: center;
   font-size: 300%;
+
 }
 h2 {
   color: #084C61;
   font-family: Lora; Times;
   font-size: 175%;
+  font-style: italic;
 }
 h3 {
   color: brown;
@@ -39,22 +41,19 @@ a:hover {
 .blue {
   color: #4F6D7A;
   font-weight: bold;
-
 }
-
 
 
 .row {
   height: 250px;
   width: 250px;
   padding: 25px;
-  border: 25px solid #56A3A6;
+  border: 25px solid #ff773D;
   background: #E3B505;
   text-align: center;
 }
 
 .container {
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -70,7 +69,7 @@ a.highlight:hover {
   color: #ff0000;
 }
 body {
-background-color: #ff773D;
+background-color: #56A3A6;
 }
 .interesting-text {
   color: hsla(283, 100%, 50%, .5);
