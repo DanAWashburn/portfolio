@@ -42,6 +42,10 @@ div {
   color: #084C61;
 }
 
+.notable:hover {
+ font-size: 325%;
+}
+
 .blue {
   color: #4F6D7A;
   font-weight: bold;
@@ -109,11 +113,15 @@ div {
   flex-direction: column;
   justify-content: space-evenly;
   margin: 20px;
+  position: absolute;
+  left: 20%;
 }
 
 .notable {
   color: #084C61;
   font-size: 300%;
+  position: absolute;
+  left: 50%;
 }
 
 ul {
