@@ -38,10 +38,6 @@ a:hover {
  text-decoration: underline;
 }
 
-div {
-  color: #084C61;
-}
-
 .blue {
   color: #4F6D7A;
   font-weight: bold;
@@ -63,23 +59,12 @@ div {
   border: 20px solid #ff773D;
   background: #E3B505;
   text-align: center;
-
   transition: width 1s;
-}
-
-.fancy {
-  color: #084C61;
-  font-size: 200%;
-  transition: font-size 2s;
-}
-
-.fancy:hover {
-  font-size: 400%;
 }
 
 .column:hover {
   width: 330px;
-
+  font-size: 300%;
 }
 
 .row:hover {
