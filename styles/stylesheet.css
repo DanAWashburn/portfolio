@@ -108,8 +108,12 @@ div {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-evenly;
-
   margin: 20px;
+}
+
+.notable {
+  color: #084C61;
+  font-size: 300%;
 }
 
 ul {
