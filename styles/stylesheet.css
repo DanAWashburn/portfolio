@@ -2,14 +2,15 @@
 
 h1   {
   color: #084C61;
-  font-family:"Libre Baskerville"; Times;
+  font-family: "Libre Baskerville", "Times New Roman";
   text-align: center;
   font-size: 300%;
 
 }
+
 h2 {
   color: #084C61;
-  font-family: Lora; Times;
+  font-family: Lora, "Times New Roman";
   font-size: 175%;
   font-style: italic;
 }
@@ -161,7 +162,7 @@ background-color: #56A3A6;
   text-align: center;
 }
 
-#larger {
+.larger {
   font-size: 150%
 }
 img {
