@@ -43,7 +43,7 @@ div {
 }
 
 .notable:hover {
- font-size: 325%;
+ font-size: 400%;
 }
 
 .blue {
@@ -122,6 +122,7 @@ div {
   font-size: 300%;
   position: absolute;
   left: 50%;
+  transition: font-size 2s;
 }
 
 ul {
