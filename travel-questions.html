@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Before You Go!</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+
+  </head>
+  <body>
+   <h1>Pre-Travel Medical Questionnaire</h1>
+
+   <form method="GET">
+     <label>Your name:
+     <input type="text" name="applicantName">
+     </label>
+     <label>Countries You Plan to Visit:
+       <textarea name="countries" rows="4"
+         cols="50">
+      </textarea>
+     </label>
+
+     <label> Your worst fear:
+       <input type="text" name="visitorFear">
+     </label>
+
+     <fieldset class="checkbox">
+       <legend>Types of rabid animals have you previously been bitten by: (Select all that apply)
+       </legend>
+     <label>Dogs
+       <input type="checkbox" name="species"
+       value="dogs">
+       <span class="checkmark"></span>
+     </label>
+     <label>Wolves
+       <input type="checkbox" name="species"
+       value="wolves">
+       <span class="checkmark"></span>
+     </label>
+     <label>Bats
+       <input type="checkbox" name="species"
+       value="bats">
+       <span class="checkmark"></span>
+     </label>
+     <label>Vampires
+       <input type="checkbox" name="species"
+       value="vampires">
+       <span class="checkmark"></span>
+     </label>
+     <label>Tree Sloths
+       <input type="checkbox" name="species"
+       value="sloths">
+       <span class="checkmark"></span>
+     </label>
+     </fieldset>
+       <label>Have you ever bitten a rabid dog?
+         <select name="biter">
+           <option value="">Please select</option>
+           <option value="single">Yes, the dog I bit was rapid.</option>
+           <option value="canine">I bit a rapid canine but am unsure whether it was dog or wolf.</option>
+           <option value="creatures">I bite so many creatures that I cannot tell which are rabid.</option>
+           <option value="impaired">My rabbies is causing paralysis and muscle spasms, rendering me unable to check exact options.</option>
+         </select>
+      </label>
+      <label>What is your prefered area for rabbies vacine?
+        <select name="area">
+          <option value="">Please select</option>
+          <option value="throat">Throat</option>
+          <option value="eye">Eyeball</option>
+          <option value="head">Forehead</option>
+          <option value="foot">Underside of feet</option>
+        </select>
+      </label>
+
+
+
+  <fieldset>
+    <legend>Are you interested in adopting a pet with special needs?
+    </legend>
+    <label> Yes
+      <input type="radio" name="special" value="yes">
+    </label>
+
+  <label> No
+    <input type="radio" name="special" value="no">
+  </label>
+  </fieldset>
+
+
+     <input type="submit" value="Submit my information and begin my treatment!">
+     </form>
+  </body>
+</html>
