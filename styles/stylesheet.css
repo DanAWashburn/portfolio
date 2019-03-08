@@ -180,9 +180,15 @@ button, input, select, textarea {
   margin: 1rem;
 }
 input[type=submit] {
-  width: 30%;
+  display: block;
+  width: 40%;
   background-color: #ff773D;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tag {
+  text-align: center;
 }
 
 input:focus {
@@ -250,7 +256,6 @@ fieldset input {
   display: block;
 }
 
-
 .checkbox .checkmark:after {
   left: 9px;
   top: 5px;
@@ -261,4 +266,63 @@ fieldset input {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+
+.button {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.button input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbutton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+.button:hover input ~ .checkbutton {
+  background-color: #ccc;
+}
+
+.button input:checked ~ .checkbutton {
+  background-color: #084C61;
+}
+
+.checkbutton:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.button input:checked ~ .checkbutton:after {
+  display: block;
+}
+
+.button .checkbutton:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
 }

@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Before You Go!</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 
   </head>
   <body>
    <h1>Pre-Travel Medical Questionnaire</h1>
-
+<nav><a class="notable" href="index.html"><i class="fas fa-home"></i></a></nav>
    <form method="GET">
-     <label>Your name:
+     <label><br><br><br><br>Your name:
      <input type="text" name="applicantName">
      </label>
      <label>Countries You Plan to Visit:
@@ -18,10 +19,13 @@
          cols="50">
       </textarea>
      </label>
-
+     <label> Email Address You'd Like Us to Sell to Spammers:
+       <input type="email" name="applicantEmail">
+     </label>
      <label> Your worst fear:
        <input type="text" name="visitorFear">
      </label>
+
 
      <fieldset class="checkbox">
        <legend>Types of rabid animals have you previously been bitten by (Select all that apply):
@@ -61,7 +65,7 @@
            <option value="impaired">My rabbies is causing paralysis and muscle spasms, rendering me unable to check exact options.</option>
          </select>
       </label>
-      <label>What is your prefered area for anti-rabbies injection?
+      <label>What is your prefered area to receive anti-rabbies injection?
         <select name="area">
           <option value="">Please select</option>
           <option value="throat">Throat</option>
@@ -74,12 +78,14 @@
   <fieldset>
     <legend>Are you especially invested in your long-term sanity after treatment has concluded?
     </legend>
-    <label> Yes
+    <label class="button"> Yes
       <input type="radio" name="sanity" value="yes">
+      <span class="checkbutton"></span>
     </label>
 
-  <label> No
+  <label class="button"> No
     <input type="radio" name="sanity" value="no">
+    <span class="checkbutton"></span>
   </label>
   </fieldset>
 
@@ -87,6 +93,6 @@
      <input type="submit" value="Submit my information and begin my treatment!">
      </form>
 
-     <h2>Bon Voyage!</h2>
+     <h2 id="tag">Bon Voyage!</h2>
   </body>
 </html>
