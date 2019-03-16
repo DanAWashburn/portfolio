@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Lora');
 
 h1   {
-  color: #084C61;
+  color: #063442;
   font-family: "Libre Baskerville", "Times New Roman";
   text-align: center;
   font-size: 300%;
@@ -9,7 +9,7 @@ h1   {
 }
 
 h2 {
-  color: #084C61;
+  color: #063442;
   font-family: Lora, "Times New Roman";
   font-size: 175%;
   font-style: italic;
@@ -40,7 +40,7 @@ a:hover {
 }
 
 div {
-  color: #084C61;
+  color: #063442;
 }
 
 .notable:hover {
@@ -48,16 +48,18 @@ div {
 }
 
 .blue {
-  color: #4F6D7A;
+  color: #2A3941;
   font-weight: bold;
+  padding: 1rem;
+
 }
 
 .row {
   height: 250px;
   width: 250px;
   padding: 25px;
-  border: 25px solid #ff773D;
-  background: #E3B505;
+  border: 25px solid #FF824D;
+  background: #FACA0A;
   text-align: center;
 }
 
@@ -66,14 +68,14 @@ div {
   width: 125px;
   padding: 20px;
   border: 20px solid #ff773D;
-  background: #E3B505;
+  background: #FACA0A;
   text-align: center;
 
   transition: width 1s;
 }
 
 .fancy {
-  color: #084C61;
+  color: #063442;
   font-size: 200%;
   transition: font-size 2s;
 }
@@ -88,8 +90,8 @@ div {
 }
 
 .row:hover {
-  border: 25px solid #4F6D7A;
-  background: #ff773D;
+  border: 25px solid #2A3941;
+  background: #FF824D;
 }
 
 .row {
@@ -119,7 +121,7 @@ div {
 }
 
 .notable {
-  color: #084C61;
+  color: #063442;
   font-size: 300%;
   position: absolute;
   left: 50%;
@@ -133,7 +135,7 @@ a.highlight:hover {
   color: #ff0000;
 }
 body {
-background-color: #56A3A6;
+background-color: #9CC6C9;
 }
 
 .interesting-text {
@@ -167,7 +169,7 @@ background-color: #56A3A6;
 }
 img {
 border-style: ridge;
-border-color: #084C61;
+border-color: #063442;
 border-width: 3px;
 height: 40%;
 }
@@ -182,7 +184,7 @@ button, input, select, textarea {
 input[type=submit] {
   display: block;
   width: 40%;
-  background-color: #ff773D;
+  background-color: #FF824D;
   margin-left: auto;
   margin-right: auto;
 }
@@ -192,7 +194,7 @@ input[type=submit] {
 }
 
 input:focus {
-  background-color: #E3B505;
+  background-color: #FACA0A;
   outline: none;
 }
 
